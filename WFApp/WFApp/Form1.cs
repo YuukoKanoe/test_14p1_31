@@ -21,5 +21,10 @@ namespace WFApp
         {
             MessageBox.Show("enot");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("kurlik");
+        }
     }
 }
