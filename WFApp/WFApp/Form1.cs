@@ -19,7 +19,7 @@ namespace WFApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("enot");
+            label1.Text = "Enot";
         }
 
         private void button2_Click(object sender, EventArgs e)
