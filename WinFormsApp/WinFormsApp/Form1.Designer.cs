@@ -34,34 +34,32 @@
             // 
             // button1
             // 
-
-            this.button1.Location = new System.Drawing.Point(178, 40);
+            this.button1.Location = new System.Drawing.Point(13, 63);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
             this.button2.BackColor = System.Drawing.Color.Yellow;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(368, 397);
-            this.button2.Name = "button1";
+            this.button2.Location = new System.Drawing.Point(143, 45);
+            this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(151, 41);
             this.button2.TabIndex = 0;
             this.button2.Text = "buttonEnota";
             this.button2.UseVisualStyleBackColor = false;
-
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
-            this.ClientSize = new System.Drawing.Size(800, 450);
-
+            this.ClientSize = new System.Drawing.Size(355, 169);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Name = "Form1";
@@ -74,6 +72,7 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+
     }
 }
 
